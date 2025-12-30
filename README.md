@@ -53,7 +53,7 @@ url-shortener/
 1. Clone the repository
    ```bash
    git clone https://github.com/your-username/url-shortener.git
-```
+``
    
 2.Move into the project directory
    ```bash
@@ -70,9 +70,10 @@ url-shortener/
    ```bash
    npm run dev
 ```
+
 ---
 
-#📊 Click Tracking
+## 📊 Click Tracking
 Each short URL maintains a clicks field in the database
 The count increases every time the short link is accessed
 Helps analyze how often a short URL is used
@@ -92,7 +93,7 @@ Clicks: 5
 
 ---
 
-#🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 Express routing and middleware
 
 MongoDB CRUD operations
@@ -105,5 +106,5 @@ Building a complete full-stack project
 
 ---
 
-#📜 License
+## 📜 License
 This project is open-source and intended for educational purposes.
