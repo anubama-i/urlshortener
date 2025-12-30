@@ -30,15 +30,10 @@ This project shortens long URLs using `shortId.generate()` and also tracks the *
 url-shortener/
 │
 ├── views/ # EJS templates
-├── public/ # Static assets (CSS)
 ├── models/ # MongoDB schemas
-├── routes/ # Express routes
 ├── server.js # Entry point
 ├── package.json
 └── README.md
-
-yaml
-Copy code
 
 ---
 
@@ -58,52 +53,46 @@ Copy code
 1. Clone the repository
    ```bash
    git clone https://github.com/your-username/url-shortener.git
-Move into the project directory
+```
+   
+2.Move into the project directory
+   ```bash
+   cd url-shortener
+```
 
-bash
-Copy code
-cd url-shortener
-Install dependencies
+3.Install dependencies
+   ```bash
+   npm install
+```
 
-bash
-Copy code
-npm install
-Start MongoDB (local or Atlas)
+3.Start MongoDB (local or Atlas)
+4.Run the application
+   ```bash
+   npm run dev
+```
+---
 
-Run the application
-
-bash
-Copy code
-npm start
-Open in browser
-
-arduino
-Copy code
-http://localhost:3000
-📊 Click Tracking
+#📊 Click Tracking
 Each short URL maintains a clicks field in the database
-
 The count increases every time the short link is accessed
-
 Helps analyze how often a short URL is used
 
 📌 Example
 Original URL
-
-ruby
-Copy code
 https://www.example.com/very/long/url
-Short URL
 
-arduino
-Copy code
+Short URL
 http://localhost:3000/XyZ12A
+
 Clicks
 
 makefile
 Copy code
 Clicks: 5
-🎯 Learning Outcomes
+
+---
+
+#🎯 Learning Outcomes
 Express routing and middleware
 
 MongoDB CRUD operations
@@ -114,5 +103,7 @@ Implementing click analytics
 
 Building a complete full-stack project
 
-📜 License
+---
+
+#📜 License
 This project is open-source and intended for educational purposes.
